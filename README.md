@@ -33,3 +33,22 @@ O projeto entregou um pacote de branding completo e de altíssima qualidade a cu
 
 ## 💭 Reflexão (Opcional)
 O maior desafio de criar algo com aspecto "Natty" (autêntico, orgânico) usando IAs Generativas é não se tornar refém da geração aleatória. A IA tende a exagerar ou perder a consistência se deixada solta. A verdadeira habilidade "Natty" na era da IA é a **curadoria e a direção de arte**. O sucesso deste projeto não veio apenas do poder da ferramenta, mas do olhar humano que soube pinçar um detalhe acidental (o emblema no casaco) e da disciplina na engenharia do prompt de vídeo para controlar o movimento. É o trabalho "certificado e tartarugado" de lapidar o resultado bruto até ele ganhar alma.
+
+## 📜 Anexo Tecnológico: Engenharia de Prompts
+
+Para fins de documentação e auditoria do laboratório, abaixo estão os direcionamentos (prompts) utilizados nas ferramentas de IA Generativa para a criação da nossa identidade visual:
+
+### 1. Geração do Avatar (Image Generation)
+* **Ferramenta:** Google Nano Banana (Text-to-Image)
+* **Objetivo:** Criar um mascote carismático que referencie a IA geradora, vestindo um traje tecnológico.
+* **Prompt Conceitual Utilizado:** *"A cute 3D character shaped like a banana, acting as a tech assistant or Telegram bot. It should wear a modern, futuristic tech jacket or uniform. The style should be friendly, highly detailed, and charismatic, suitable for a corporate mascot, with a solid, clean background."*
+
+### 2. Extração e Refinamento da Logo (Image Generation)
+* **Ferramenta:** Google Nano Banana (Text-to-Image)
+* **Objetivo:** Isolar o emblema gerado acidentalmente no casaco do avatar e transformá-lo em uma marca corporativa oficial em formato quadrado.
+* **Prompt Conceitual Utilizado:** *"Extract and isolate the logo from the character's uniform. A pixel art style star icon with a trail, above the word 'STARS' in a bold, modern, tech-oriented typography, and 'Desenvolvimentos Inteligentes' written below. Square format, clean white background, high resolution."*
+
+### 3. Animação Cinematográfica (Video Generation)
+* **Ferramenta:** Google Veo (Image-to-Video)
+* **Objetivo:** Dar vida à logo estática, transmitindo uma sensação de tecnologia, processamento e energia, sem distorcer a tipografia original.
+* **Prompt Exato Utilizado:** *"Cinematic animation of the STARS logo. The central star pulses with a soft neon blue light. A metallic shine sweeps across the text 'STARS'. Subtle digital particles float in the background. Stable camera, high quality, 4k."*
